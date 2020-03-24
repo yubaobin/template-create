@@ -1,5 +1,3 @@
-module.exports = function render (name) {
-  return `
 <!--
   组件名称：详情
   -->
@@ -50,5 +48,3 @@ export default {
     width: 90%;
   }
 </style>
-`
-}

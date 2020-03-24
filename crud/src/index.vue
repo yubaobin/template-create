@@ -1,5 +1,3 @@
-module.exports = function render (name) {
-  return `
 <!--
   组件名称：${name}
   -->
@@ -98,5 +96,3 @@ export default {
 </script>
 <style lang="scss" scoped>
 </style>
-`
-}

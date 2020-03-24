@@ -1,5 +1,3 @@
-module.exports = function render (name) {
-  return `
 <!--
   组件名称：增删改查新增编辑
   -->
@@ -63,6 +61,3 @@ export default {
     width: 90%;
   }
 </style>
-
-`
-}
