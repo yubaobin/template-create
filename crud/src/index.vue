@@ -60,9 +60,9 @@ export default {
   },
   data () {
     return {
-      tableUrl: this.api.{{ tableUrl }},
-      deleteUrl: this.api.{{ deleteUrl }},
-      deleteBatchUrl: this.api.{{ deleteBatchUrl }},
+      tableUrl: this.api.tableUrl,
+      deleteUrl: this.api.deleteUrl,
+      deleteBatchUrl: this.api.deleteBatchUrl,
       query: {
         productVo: {
           name: ''
