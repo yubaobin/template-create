@@ -29,7 +29,7 @@ export default {
   },
   data () {
     return {
-      detailUrl: this.api.getProductById,
+      detailUrl: this.api.{{ detailUrl }},
       dataObj: {
         name: ''
       }
