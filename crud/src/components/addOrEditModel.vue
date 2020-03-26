@@ -29,9 +29,9 @@ export default {
   mixins: [crudModelMixin],
   data () {
     return {
-      addUrl: this.api.addProduct,
-      updateUrl: this.api.updateProduct,
-      detailUrl: this.api.getProductById,
+      addUrl: this.api.{{ addUrl }},
+      updateUrl: this.api.{{ updateUrl }},
+      detailUrl: this.api.{{ detailUrl }},
       defaultForm: {
         name: '',
         price: ''
