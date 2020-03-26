@@ -60,7 +60,7 @@ export default {
   },
   data () {
     return {
-      tableUrl: this.api222.{{ tableUrl }},
+      tableUrl: this.api.{{ tableUrl }},
       deleteUrl: this.api.{{ deleteUrl }},
       deleteBatchUrl: this.api.{{ deleteBatchUrl }},
       query: {
