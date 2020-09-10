@@ -12,6 +12,6 @@ module.exports = [{
     path: 'index',
     name: `${namespace}Index`,
     component: `views/${namespace}/index`,
-    meta: { icon: 'cluster', title: '增删改查', roles: ['admin'] }
+    meta: { icon: '{{ router.icon }}', title: '{{ router.title }}', roles: {{ router.roles }} }
   }]
 }]
